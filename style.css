@@ -113,36 +113,34 @@ body {
 @media (max-width: 640px) {
 
     .nav-links {
-        display: none;
+        display: flex;
         position: fixed;
         top: 0;
         left: 0;
-        height: 60%;
-        width: 200px;
+        height: 100%;
+        width: 250px;
         background: rgba(13, 13, 26, 0.95);
         flex-direction: column;
         padding: 4rem 2rem;
         transform: translateX(-100%);
-        text-align: left;
-        box-sizing: border-box;
-        border: 2px solid red;
-        justify-content: left;
-        align-items: left;
-
-
+        /* text-align: center; */
+    }
+    .nav-links.active {
+        /* display: flex; */
+        transform: translateX(0);
     }
 
-  
-    .nav-links.active {
+    .hight-contaner{
+        /* border: 2px solid red; */
+        width: 100%;
         display: flex;
-        transform: translateX(0);
+        flex-direction: column;
+        text-align: left;
     }
     .nav-links a {
         margin: 1rem 0;
         font-size: 1.25rem;
-        /* width: 100%; */
-        text-align: left;
-        border: 2px solid red;
+        /* text-align: center; */
         
     }
     .nav-links a:hover{
@@ -189,12 +187,29 @@ body {
     }
 }
 @media (min-width: 641px) {
+
+      .nav-links a {
+        margin: 1rem 0.1rem;
+        font-size: 1rem;
+        /* text-align: center; */
+        
+    }
     .hamburger {
         display: none;
     }
     .nav-links {
         display: flex !important;
         transform: none !important;
+    }
+}
+
+
+@media (min-width: 1041px) {
+    .nav-links a {
+        margin: 1rem 1rem;
+        font-size: 1.25rem;
+        /* text-align: center; */
+        
     }
 }
 /* Footer Styles */
