@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.2"
+  },
+  "name": "gurjant-singh-rai",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amarkamboj2868/gurjant-singh-rai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amarkamboj2868/gurjant-singh-rai/issues"
+  },
+  "homepage": "https://github.com/Amarkamboj2868/gurjant-singh-rai#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
+  }
+}
